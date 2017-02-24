@@ -69,3 +69,6 @@ p {
 footer.page-footer {
   margin: 0;
 }
+.footer-right {
+  float: right;
+}
