@@ -37,7 +37,7 @@ nav .brand-logo, .red-text {
 p, li{
   line-height: 2rem;
 }
-li {
+.bullets li {
   list-style: circle !important;
 }
 .card, .card-content, .card-reveal {
