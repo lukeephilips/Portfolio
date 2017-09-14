@@ -1,48 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Arvo');
-
-
-.card-content {
-  height: 150px;
-}
- {
-
-}
-body  {
-background: #263238;
-color: white;
-}
-.card, .card-content, .card-reveal {
-background: #455a64;
-}
-
-h1, h2, h3, h4, h5 {
-  font-family: Arvo;
-}
-
-h1, .material-icons,
-nav .brand-logo, .red-text {
-  color: maroon;
-}
-
-p {
-  line-height: 2rem;
-}
-
-.button-collapse {
-  color: #26a69a;
-}
-
 .parallax-container {
   min-height: 380px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
 }
-  .parallax-container .section {
-    width: 100%;
-    height: 600px;
-  }
-
+.parallax-container .section {
+  width: 100%;
+  height: 600px;
+}
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
@@ -52,23 +18,50 @@ p {
     top: 10%;
   }
 }
-
 @media only screen and (max-width : 600px) {
   #index-banner .section {
     top: 0;
   }
 }
-
+body  {
+background: #263238;
+color: white;
+}
+h1, h2, h3, h4, h5 {
+  font-family: Arvo;
+}
+h1, .material-icons,
+nav .brand-logo, .red-text {
+  color: maroon;
+}
+p, li{
+  line-height: 2rem;
+}
+li {
+  list-style: circle !important;
+}
+.card, .card-content, .card-reveal {
+background: #455a64;
+}
+.card-content {
+  height: 160px;
+}
+.button-collapse {
+  color: #26a69a;
+}
 .icon-block {
   padding: 0 15px;
 }
 .icon-block .material-icons {
   font-size: inherit;
 }
-
 footer.page-footer {
   margin: 0;
 }
 .footer-right {
   float: right;
+}
+.wide{
+  margin-left: -150px;
+  margin-right: -150px;
 }
