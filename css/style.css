@@ -13,6 +13,9 @@
   margin-left: -150px;
   margin-right: -150px;
 }
+.hide-on-med-and-down {
+padding-top: 1em;
+}
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
@@ -63,8 +66,8 @@ background: #455a64;
 .icon-block .material-icons {
   font-size: inherit;
 }
-footer.page-footer {
-  margin: 0;
+footer {
+  padding: 1em;
 }
 .footer-right {
   float: right;
